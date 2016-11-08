@@ -1,0 +1,33 @@
+{
+   "name":"topraksaral/slimView",
+   "description":"Blade is a simple, yet powerful templating engine provided for the Slim Framework",
+   "keywords":[
+      "slim-blade",
+      "laravel",
+      "blade",
+      "slim",
+      "slimphp"
+   ],
+   "homepage":"http://github.com/topraksaral/slimView",
+   "license":"MIT",
+   "authors":[
+      {
+         "name":"clickcoder",
+         "email":"kevin@kevindarren.com"
+      }
+   ],
+   "source":{
+      "url":"git://github.com/topraksaral/slimView.git",
+      "type":"git",
+      "reference":"master"
+   },
+   "require":{
+      "slim/views":"0.1.*",
+      "philo/laravel-blade":"1.0"
+   },
+   "autoload":{
+      "psr-4":{
+         "Slim\\Views\\":"src"
+      }
+   }
+}
